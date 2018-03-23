@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jtM-ad-l3d">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,29 @@
             <objects>
                 <viewController id="jtM-ad-l3d" customClass="ImageViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4VP-3i-zbm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uve-l7-m2f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uve-l7-m2f" secondAttribute="bottom" id="S79-WE-pRI"/>
+                            <constraint firstItem="uve-l7-m2f" firstAttribute="top" secondItem="4VP-3i-zbm" secondAttribute="top" id="nvZ-dF-RbR"/>
+                            <constraint firstItem="uve-l7-m2f" firstAttribute="trailing" secondItem="4VP-3i-zbm" secondAttribute="trailing" id="uKF-Bn-K4G"/>
+                            <constraint firstItem="uve-l7-m2f" firstAttribute="leading" secondItem="4VP-3i-zbm" secondAttribute="leading" id="yuA-dQ-uNX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aNI-AH-Vtg"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="uve-l7-m2f" id="c58-fL-4fd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pge-Pd-juD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-158" y="114"/>
+            <point key="canvasLocation" x="-159.19999999999999" y="113.79310344827587"/>
         </scene>
     </scenes>
 </document>
