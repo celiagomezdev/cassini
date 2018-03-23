@@ -46,7 +46,11 @@ class ImageViewController: UIViewController {
 
     var imageView = UIImageView()
     
-    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var scrollView: UIScrollView! {
+        didSet {
+            scrollView.addSubview(imageView)
+        }
+    }
     
     private func fetchImage() {
         if let url = imageURL {
