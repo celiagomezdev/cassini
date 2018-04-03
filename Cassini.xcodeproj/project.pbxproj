@@ -13,6 +13,7 @@
 		7E965378206512B8000E511E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E965376206512B8000E511E /* LaunchScreen.storyboard */; };
 		7E9653812065137D000E511E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9653802065137D000E511E /* ImageViewController.swift */; };
 		7E9653832065685B000E511E /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9653822065685B000E511E /* DemoURLs.swift */; };
+		7E9653A92069665D000E511E /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9653A82069665D000E511E /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E965379206512B8000E511E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9653802065137D000E511E /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		7E9653822065685B000E511E /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		7E9653A82069665D000E511E /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				7E96536D206512B8000E511E /* AppDelegate.swift */,
+				7E9653A82069665D000E511E /* CassiniViewController.swift */,
 				7E9653802065137D000E511E /* ImageViewController.swift */,
 				7E9653822065685B000E511E /* DemoURLs.swift */,
 				7E96537F206512D6000E511E /* Supporting Files */,
@@ -102,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Celia Gómez de Villavedón Pedrosa";
 				TargetAttributes = {
 					7E965369206512B7000E511E = {
@@ -150,6 +153,7 @@
 				7E9653812065137D000E511E /* ImageViewController.swift in Sources */,
 				7E96536E206512B8000E511E /* AppDelegate.swift in Sources */,
 				7E9653832065685B000E511E /* DemoURLs.swift in Sources */,
+				7E9653A92069665D000E511E /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +193,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -196,6 +201,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -246,6 +252,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -253,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
